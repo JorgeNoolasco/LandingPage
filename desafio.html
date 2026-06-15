@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NullSector | Painel de Desafios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">&lt;NullSector_&gt;</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#sobre">Sobre</a></li>
+                <li><a href="index.html#categorias">Categorias</a></li>
+                <li><a href="index.html#contato">Contato</a></li>
+                <li><a href="desafios.html" class="btn-nav active">Jogar Agora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="ctf-panel">
+        <div class="panel-header">
+            <h2>Terminal de Desafios [Nível: Iniciante]</h2>
+            <p>Submeta as flags encontradas para validar seus pontos.</p>
+        </div>
+
+        <div class="challenge-box">
+            <div class="challenge-meta">
+                <span class="category-tag">WEB EXPLOITATION</span>
+                <span class="points">100 PTS</span>
+            </div>
+            <h3>Desafio #01: O Infiltrado</h3>
+            <p class="challenge-desc">Dica: Inspecione cuidadosamente o código fonte da página inicial. Às vezes, os desenvolvedores esquecem segredos importantes comentados no código HTML antigo.</p>
+            
+            <div class="flag-submission">
+                <input type="text" placeholder="nullsector{flag_aqui}" class="flag-input">
+                <button class="btn-flag" onclick="alert('Sistema de validação offline simulado!')">Submeter Flag</button>
+            </div>
+        </div>
+
+        <div class="back-home-container">
+            <a href="index.html" class="btn-secondary">&larr; Voltar para a Home</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 NullSector CTF. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
