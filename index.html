@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NullSector | CTF & Cybersecurity</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html" class="logo">&lt;NullSector_&gt;</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#categorias">Categorias</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="desafio.html" class="btn-nav">Jogar Agora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">SISTEMA ONLINE</span>
+            <h1>DOMINE A ARTE DO <span class="highlight">HACKING ÉTICO</span></h1>
+            <p>Prepare-se para o maior Capture The Flag do ano. Teste suas habilidades em invasão web, criptografia, engenharia reversa e defesa cibernética em um ambiente 100% controlado.</p>
+            <a href="desafio.html" class="btn-main">Iniciar Desafio</a>
+        </div>
+        <div class="hero-image">
+            <img src="imagens/serve.jpg" alt="Servidores de Segurança Cibernética">
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="sobre-container">
+            <div class="sobre-image">
+                <img src="imagens/matriz.jpg" alt="Código de matriz digital">
+            </div>
+            <div class="sobre-text">
+                <h2>O que é o NullSector?</h2>
+                <p>Nós somos uma plataforma de simulação de ameaças reais em formato de competição gamificada (CTF). Aqui, profissionais e entusiastas de segurança buscam por falhas ocultas, quebram criptografias e capturam "flags" (bandeiras) para pontuar no ranking global.</p>
+                <p>Seja você um iniciante ou um veterano do Red/Blue Team, há um lugar para você evoluir.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="categorias" class="categorias">
+        <h2>Trilhas de Conhecimento</h2>
+        <p class="subtitle">Escolha sua especialidade e capture as flags</p>
+        
+        <div class="grid-categorias">
+            <div class="card">
+                <img src="imagens/explo.jpg" alt="Web Hacking">
+                <h3>Web Exploitation</h3>
+                <p>Explore vulnerabilidades clássicas e modernas como SQL Injection, XSS, CSRF e falhas de autenticação.</p>
+            </div>
+            <div class="card">
+                <img src="imagens/crip.jpg" alt="Criptografia">
+                <h3>Cryptography</h3>
+                <p>Decifre mensagens, quebre cifras antigas e explore implementações incorretas de algoritmos criptográficos modernos.</p>
+            </div>
+            <div class="card">
+                <img src="imagens/revers.png" alt="Engenharia Reversa">
+                <h3>Reverse Engineering</h3>
+                <p>Analise binários compilados, entenda o comportamento de malwares e descubra flags escondidas no código assembly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="form-container">
+            <h2>Fale com o Comando</h2>
+            <p>Dúvidas, parcerias ou reporte de bugs? Envie um sinal encriptado.</p>
+            
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nome">Codinome / Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Ex: Neo" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail de Contato</label>
+                    <input type="email" id="email" name="email" placeholder="seu-email@protonmail.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem codificada aqui..." required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar Transmissão</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 NullSector CTF. Todos os direitos reservados.</p>
+            <p class="tech-footer">Status: <span class="online">Secure Connection Established</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
